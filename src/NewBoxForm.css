@@ -1,0 +1,24 @@
+.NewBoxForm{
+    width: 90%;
+}
+
+.NewBoxForm-title{
+    margin: 0;
+    text-align: left;
+}
+
+.NewBoxForm-form{
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.NewBoxForm-form button{
+    margin-left: 5px;
+    flex-grow: 0;
+}
+.NewBoxForm-form input{
+    text-decoration: none;
+    height: 38px;
+    flex-grow: 1;
+    outline:none;
+}
